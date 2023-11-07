@@ -1,0 +1,27 @@
+.add-todo-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.add-button {
+  background-color: #007bff;
+  padding: 10px 20px;
+  border: none;
+
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .add-todo-container {
+    width: 100%; /* Mengisi seluruh lebar pada layar kecil */
+  }
+}
